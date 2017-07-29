@@ -22,4 +22,4 @@
 
 .byebug_history
 
-/app/assets/javascripts/js/node_modules/*
+/app/assets/js/node_modules/*
