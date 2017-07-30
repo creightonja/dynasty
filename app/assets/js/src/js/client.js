@@ -4,6 +4,7 @@ import { Router, Route, IndexRoute, hashHistory } from "react-router";
 
 import Home from "./pages/Home";
 import Auth from "./pages/Auth";
+import Layout from "./pages/Layout";
 
 const app = document.getElementById('app');
 
