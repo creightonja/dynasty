@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
+import Carousel from "../components/Carousel";
 
 import Footer from "../components/layout/Footer";
 import Nav from "../components/layout/Nav";
@@ -18,7 +19,7 @@ export default class Layout extends React.Component {
         <div class="container" style={containerStyle}>
           <div class="row">
             <div class="col-lg-12">
-              <h1>EatsRanker.com</h1>
+              <Carousel/>
 
               {this.props.children}
 
